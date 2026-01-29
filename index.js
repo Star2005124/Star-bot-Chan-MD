@@ -15,7 +15,7 @@ let isConnected = false
 let botProcess = null
 let botStats = null 
 const mongodbUri = process.env.MONGODB_URI || 'mongodb://localhost:27017'
-const phoneNumber = process.env.PHONE_NUMBER || ''
+const phoneNumber = process.env.PHONE_NUMBER || '601163926220'
 
 figlet(
   'GURU BOT',
